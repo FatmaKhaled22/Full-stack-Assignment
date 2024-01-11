@@ -1,6 +1,6 @@
-<h1>Facultyfinds</h1>
+<h1>Assignment</h1>
 <h2>Introduction</h2>
-Facultyfinds is a website that display used products for different colleges for sale so that you can buy them, and also you can sell your used products for your college for sale on it.
+Full-Stack application that allows users to explore and choose from a set of features, each associated with specific tasks. Users can complete these tasks to earn XP (Experience Points).
 
 <h2>Run</h2>
 1-clone the project
