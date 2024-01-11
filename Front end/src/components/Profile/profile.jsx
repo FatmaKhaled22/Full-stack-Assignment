@@ -119,6 +119,10 @@ function Profile() {
                         </tr>
                       )
                     })}
+                    <tr>
+                      <td>Total Points</td>
+                      <td><h4 className="text-danger">{sum}</h4></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>

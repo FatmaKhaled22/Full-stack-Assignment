@@ -23,11 +23,7 @@ function SignUp() {
       const Registered = await axiosInstance.post("/user/register", object);
       console.log("Success creating category:", Registered);
       swal("Successfuly registration" , "The user has been added successfully" ,"success" , {button:false});
-      navigate("/profile");
-      var Token = accessLogin.data.token;
-      var userId = accessLogin.data.userId;
-      localStorage.setItem("token", Token);
-      localStorage.setItem("userid", userId);
+      navigate("/login");
     } catch (error) {
       console.error("Error:", error);
       swal("Try Again", "Registration is rejected " ,"warning");

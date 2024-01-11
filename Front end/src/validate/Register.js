@@ -26,8 +26,6 @@ const RegisterValidate = (values) => {
     errors.phoneNumber = "Phone-Num is Required";
   } else if (isNaN(values.phoneNumber) || values.phoneNumber < 0) {
     errors.phoneNumber = "Invalid number of phoneNumber";
-  } else if (values.phoneNumber.length < 11) {
-    errors.phoneNumber = "Must be exctaly 11 number";
   }
 
   return errors;
