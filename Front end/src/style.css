@@ -1,0 +1,35 @@
+h1{
+    color: rgb(0, 106, 255) !important;
+}
+
+a{
+    text-decoration: none !important;
+    font-weight: 400 !important;
+}
+a:hover , button:hover{
+    color: #fff !important;
+}
+.link-sign{
+    font-weight: 400 !important;
+}
+.link-sign:hover{
+    color: black !important;
+}
+.desc-cat{
+    font-size: 0.8rem;
+}
+.card-shadow{
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+@media only screen and (max-width: 992px) {
+    .user h6{
+        font-size: 0.8rem;
+    }
+}
+nav ol a{
+    font-weight: 500 !important;
+}
+nav ol a:hover{
+    color: red !important;
+}

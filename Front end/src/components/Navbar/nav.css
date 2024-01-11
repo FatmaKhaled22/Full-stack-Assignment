@@ -1,0 +1,87 @@
+.navbar{
+    background-color: rgba(0, 0, 0, 0.463) !important;
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff !important;
+}
+
+.logo-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #fff !important;
+}
+
+.nav-item{
+    padding-left: 10px;
+}
+
+.collapse .nav-link{
+    color: #fff !important;
+}
+
+.collapse .nav-link:hover{
+    color: #000 !important;
+}
+ 
+#navy ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-link i{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .logo-text{
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-text{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo-text{
+        font-size: 1rem;
+    }
+    .logo{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .navbar{
+        padding: 5vw !important;
+    }
+    #navbarNavDropdown ul li{
+        font-size: 4vw !important;
+    }
+    .navbar-toggler{
+        padding: 3px 8px !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .logo-text{
+        font-size: 0.8rem;
+    }
+    .logo{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .navbar-toggler{
+        padding: 3px 5px !important;
+    }
+}
