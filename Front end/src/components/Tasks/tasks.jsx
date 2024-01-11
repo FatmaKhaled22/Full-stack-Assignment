@@ -2,10 +2,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axiosInstance from "../../config/axiosConfig";
-import '../../style.css';
 import { setCompletedTasks } from "../../store/reducer/taskSlice";
 import { getTasksByUser } from "../../services/tasks";
 import swal from "sweetalert";
+import '../../style.css';
 
 function Task() {
 
@@ -48,37 +48,32 @@ function Task() {
 
   ///////////////////////////////////////////////////////
   /// Event on btn to check this task is completed or not and store the complete task in database 
-
-  // var isCompleted;
-  // const setCompletedTask = (event) => {
-  //   const taskid = event.target.value;
-  //   console.log("taskId ---> ",taskid);
-  //   // var tasksCompleted;
-  //   taskscomplete.map((task) => {
-  //     console.log(task.taskId._id , taskid)
-  //     if (task.taskId._id == taskid) {
-  //       swal("This Task is already completed" ,"warning")
-  //       // return (isCompleted == true)
-  //     } else if (task.taskId._id !== taskid) {
-  //       const tasksCompleted = {
-  //         userId:user,
-  //         taskId:taskid,
-  //       };
-  //       sendingTaskCompleted(tasksCompleted);
-  //       // return( isCompleted == false)
-  //     }
-  //   });
-  // }
   const setCompletedTask = (event) => {
-    const taskId = event.target.value;
-    console.log("taskId ---> ",taskId)
-    const tasksCompleted = {
-      userId:user,
-      taskId:taskId,
-    };
-    console.log("-->",tasksCompleted)
-    sendingTaskCompleted(tasksCompleted);
+    const taskid = event.target.value;
+    console.log("taskId ---> ",taskid);
+    var test = taskscomplete.find((task)=> task.taskId._id === taskid)
+    if(test){
+      swal("This Task is already completed" ,"warning")
+    }else{
+      const tasksCompleted = {
+        userId:user,
+        taskId:taskid,
+      };
+      sendingTaskCompleted(tasksCompleted);
+    }
+    console.log("test ===>",test);
   }
+
+  // const setCompletedTask = (event) => {
+  //   const taskId = event.target.value;
+  //   console.log("taskId ---> ",taskId)
+  //   const tasksCompleted = {
+  //     userId:user,
+  //     taskId:taskId,
+  //   };
+  //   console.log("-->",tasksCompleted)
+  //   sendingTaskCompleted(tasksCompleted);
+  // }
 
   ///////////////////////////////////////////////////////////
   ///update reducer with id of user to store completed tasks by user 
