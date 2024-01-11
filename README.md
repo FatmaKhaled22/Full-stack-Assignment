@@ -78,13 +78,13 @@ npm run dev
 
 ## ScreenShoots Samples
 
-![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)
-![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/2.png)
-![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/3.png)
-![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/4.png)
+![1-Home Page](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)
+![2- Categories](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/2.png)
+![3- Tasks from every category](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/3.png)
+![4- Profile Page](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/4.png)
 
 
 
 ## Video Demo 
 
-### [![Website Demo Video](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)(https://drive.google.com/file/d/1tdfaf1M86Ru-7QGFdoFSY676hx2OEvlV/view?usp=sharing)
+### [![Website Demo Video](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)](https://drive.google.com/file/d/1tdfaf1M86Ru-7QGFdoFSY676hx2OEvlV/view?usp=sharing)
