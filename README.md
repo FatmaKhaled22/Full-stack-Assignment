@@ -71,6 +71,7 @@ npm run dev
 - Only authenticated users should be able to earn XP and complete tasks.
 - That XP is awarded only once for each completed task.
 - Only authenticated users cn access to profile page.
+- Application is full responsive to suitable for all screen.
 
 
 ## Roles
