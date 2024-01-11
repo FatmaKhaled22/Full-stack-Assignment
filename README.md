@@ -71,15 +71,20 @@ npm run dev
 - Only authenticated users should be able to earn XP and complete tasks.
 - That XP is awarded only once for each completed task.
 - Only authenticated users cn access to profile page.
+
+
 ## Roles
 - Users
 
 ## ScreenShoots Samples
 
-![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/SamarSamyE/Pharmacy_System/assets/125185900/523738b8-b0fb-482f-baf8-afbebb8584dc)
+![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)
+![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/2.png)
+![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/3.png)
+![8663ce59-7bf2-4e6b-90f6-3fc39a0395ce](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/4.png)
 
 
 
 ## Video Demo 
 
-### [![Website Demo Video](https://drive.google.com/file/d/1tdfaf1M86Ru-7QGFdoFSY676hx2OEvlV/view?usp=sharing)
+### [![Website Demo Video](https://github.com/FatmaKhaled22/Full-stack-Assignment/blob/fatma/Front%20end/assets/1.png)(https://drive.google.com/file/d/1tdfaf1M86Ru-7QGFdoFSY676hx2OEvlV/view?usp=sharing)
