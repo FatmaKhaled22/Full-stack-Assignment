@@ -64,17 +64,6 @@ function Task() {
     console.log("test ===>",test);
   }
 
-  // const setCompletedTask = (event) => {
-  //   const taskId = event.target.value;
-  //   console.log("taskId ---> ",taskId)
-  //   const tasksCompleted = {
-  //     userId:user,
-  //     taskId:taskId,
-  //   };
-  //   console.log("-->",tasksCompleted)
-  //   sendingTaskCompleted(tasksCompleted);
-  // }
-
   ///////////////////////////////////////////////////////////
   ///update reducer with id of user to store completed tasks by user 
   const fetchTasksCompleted = async (id) => {

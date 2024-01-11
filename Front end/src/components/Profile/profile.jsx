@@ -36,15 +36,8 @@ function Profile() {
 
   ////////////////////////////////////////////////
   /// update reducer with id of user to store completed tasks by user
-  // const [taskscomplete, setTaskscomplete] = useState([]);
 
   const fetchTasksCompleted = async (id) => {
-    // axiosInstance.get(`/usertasks/user/${id}`).then((res) => {
-    //   console.log("all tasks user is completed", res.data);
-    //   setTaskscomplete(res.data);
-    // }).catch((err) => {
-    //   console.log("error ---->", err);
-    // });
     getTasksByUser(id).then((response) => {
       const taskscomplete  = response;
       dispatch(setCompletedTasks(taskscomplete));
