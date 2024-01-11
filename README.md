@@ -3,11 +3,11 @@
 Full-Stack application that allows users to explore and choose from a set of features, each associated with specific tasks. Users can complete these tasks to earn XP (Experience Points).
 
 <h2>Run</h2>
-1-clone the project
+1- Clone the project
 <pre>
 git clone https://github.com/FatmaKhaled22/Full-stack-Assignment
 </pre>
-2-inside the Backend folder run in terminal
+2- Inside the Backend folder run in terminal
 <pre>
 npm install
 </pre>
@@ -16,7 +16,7 @@ npm install
 npm start
 </pre>
 
-3-inside the Front end folder run in terminal
+3- Inside the Front end folder run in terminal
 <pre>
 npm install
 </pre>
@@ -34,6 +34,7 @@ npm run dev
 - mark on the task is complete and update profile
 - see your tasks is completed and current total points  
 - see your details in profile page
+- Not Found Page
 
 
 
@@ -66,6 +67,10 @@ npm run dev
 - bycryptjs
 - jsonwebtoken
 
+### Some Logic
+- Only authenticated users should be able to earn XP and complete tasks.
+- That XP is awarded only once for each completed task.
+- Only authenticated users cn access to profile page.
 ## Roles
 - Users
 
@@ -77,4 +82,4 @@ npm run dev
 
 ## Video Demo 
 
-### [![Website Demo Video](https://github.com/SamarSamyE/Pharmacy_System/assets/125185900/523738b8-b0fb-482f-baf8-afbebb8584dc)](https://drive.google.com/file/d/1zP3t8NAvnp34CiFegijvW60FhIhwXlNS/view?usp=sharing)
+### [![Website Demo Video](https://drive.google.com/file/d/1tdfaf1M86Ru-7QGFdoFSY676hx2OEvlV/view?usp=sharing)
