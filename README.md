@@ -78,10 +78,3 @@ npm run dev
 ## Video Demo 
 
 ### [![Website Demo Video](https://github.com/SamarSamyE/Pharmacy_System/assets/125185900/523738b8-b0fb-482f-baf8-afbebb8584dc)](https://drive.google.com/file/d/1zP3t8NAvnp34CiFegijvW60FhIhwXlNS/view?usp=sharing)
-
-
-- [Donia Ahmed](https://github.com/DoniaAhmed20)
-
-- [Mariam El Bakry](https://github.com/MariamBakry) 
-
- 
